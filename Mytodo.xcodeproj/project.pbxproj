@@ -11,6 +11,7 @@
 		657244E729A1517200ED7C4E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657244E629A1517200ED7C4E /* ContentView.swift */; };
 		657244E929A1517400ED7C4E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 657244E829A1517400ED7C4E /* Assets.xcassets */; };
 		657244EC29A1517400ED7C4E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 657244EB29A1517400ED7C4E /* Preview Assets.xcassets */; };
+		657244F329A1560700ED7C4E /* moder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657244F229A1560700ED7C4E /* moder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		657244E629A1517200ED7C4E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		657244E829A1517400ED7C4E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		657244EB29A1517400ED7C4E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		657244F229A1560700ED7C4E /* moder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = moder.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +53,10 @@
 		657244E329A1517200ED7C4E /* Mytodo */ = {
 			isa = PBXGroup;
 			children = (
+				657244F229A1560700ED7C4E /* moder.swift */,
 				657244E429A1517200ED7C4E /* MytodoApp.swift */,
 				657244E629A1517200ED7C4E /* ContentView.swift */,
+				65A23CA929A2D561000891F3 /* New Group */,
 				657244E829A1517400ED7C4E /* Assets.xcassets */,
 				657244EA29A1517400ED7C4E /* Preview Content */,
 			);
@@ -65,6 +69,13 @@
 				657244EB29A1517400ED7C4E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		65A23CA929A2D561000891F3 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				657244E729A1517200ED7C4E /* ContentView.swift in Sources */,
+				657244F329A1560700ED7C4E /* moder.swift in Sources */,
 				657244E529A1517200ED7C4E /* MytodoApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

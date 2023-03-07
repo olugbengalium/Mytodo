@@ -8,19 +8,29 @@
 import SwiftUI
 
 struct ContentView: View {
-    var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
-        }
-        .padding()
+    struct Ocean: Identifiable {
+        let name: String
+        let id = 2
     }
-}
-
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
+    
+    
+    private var oceans = [
+        Ocean(name: "Pacific"),
+        Ocean(name: "Atlantic"),
+        Ocean(name: "Indian"),
+        Ocean(name: "Southern"),
+        Ocean(name: "Arctic")
+    ]
+    
+    
+    var body: some View {
+        List(oceans) {
+            Text($0.name)
+        }
+    }
+    struct ContentView_Previews: PreviewProvider {
+        static var previews: some View {
+            ContentView()
+        }
     }
 }
